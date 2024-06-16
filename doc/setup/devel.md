@@ -3,7 +3,7 @@ layout: doc
 title: Developing MMT
 ---
 
-For developing and building MMT, it is recommened to use IntelliJ IDEA or Eclipse.
+For developing and building MMT, it is recommended to use IntelliJ IDEA or Eclipse.
 Furthermore, a working installation of `sbt` is required. 
 
 ### Using IntelliJ IDEA
