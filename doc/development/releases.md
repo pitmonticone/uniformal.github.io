@@ -461,7 +461,7 @@ Released on [22nd February 2017](https://github.com/UniFormal/MMT/releases/tag/v
   * Initial version of Active Computation Extension
 * Improvements:
   * Update to Travis Build Scripts
-  * Webserver Improvements, including CORS support, hostname support, and client side libarary updates]
+  * Webserver Improvements, including CORS support, hostname support, and client side library updates]
 
 #### Release 4
 
