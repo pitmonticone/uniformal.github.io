@@ -35,7 +35,7 @@ LMH also allows installing a specific branch of an archive. The syntax for this 
 
     lmh install <name of archive>@<version>
 
-Archvies are versioned using git. 
+Archives are versioned using git. 
 A version of an archive can be a branch name or a git commit hash (Technically anything that is a ref in git).
 When a non-existing version of the archive is specified, lmh will display a warning message and then fall back to the default version. 
 If `lmh install` with a specific version is called on an archive that is already installed, it will make sure to update to the specified version. 
