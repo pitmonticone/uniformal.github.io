@@ -20,13 +20,13 @@ Theories can be *nested*, like this:
 
 ![`theory <outer> : <metatheory1> =	<previousbody> theory <inner> : <metatheory2> =	<innerbody>	\GS	<laterbody> \GS`](../img/nestedtheory.png)
 
-in which case the visible context of both the inner theory as well as `<laterbody>` is `<previousbody>`, i.e. the inner theory can see all previous declarations of the outer theory, but at no point can the outer theory see inside the inner theory (unless explicitely [included](declarations.html#structures)).
+in which case the visible context of both the inner theory as well as `<laterbody>` is `<previousbody>`, i.e. the inner theory can see all previous declarations of the outer theory, but at no point can the outer theory see inside the inner theory (unless explicitly [included](declarations.html#structures)).
 
 ### Views
 
 Given two theories `A` and `B`, a **view** from `A` to `B` maps all [declarations](declarations) in `A` to expressions over symbols in `B`, while preserving *typing judgments*. i.e. if `|- a : tpA` in `A` and `v:A->B` is a view, then `|- v(a) : v(tpA)`. Hence, views are *truth preserving*. `A` is the *domain* of `v` and `B` is the *codomain*.
 
-Their conrete syntax is
+Their concrete syntax is
 
 ![`view <name> : <domain> -> <codomain> = <assignments> \GS`](../img/view.png)
 
