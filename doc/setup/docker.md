@@ -15,7 +15,7 @@ To start a temporary container with permanent volume for MMT content, use:
 ```
 
 This will run the newest MMT.jar and store all archives inside a new volume called mmt mounted under `/content/`. 
-The command can be run multiple times to (re-)start the container if neccessary. 
+The command can be run multiple times to (re-)start the container if necessary. 
 
 ### Storage
 
