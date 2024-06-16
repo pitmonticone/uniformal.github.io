@@ -11,7 +11,7 @@ When started, MMT looks for a configuration file called `mmtrc` in the following
 
 Later configuration entries overwrite earlier ones. 
 
-During setup a defaut configuration file is generated and placed in the `deploy` folder.
+During setup a default configuration file is generated and placed in the `deploy` folder.
 That file also includes some example configuration entries.
 
 ### Configuration File Syntax
