@@ -18,7 +18,7 @@ Configure your IDEs accordingly and do not change styling recklessly.
 All indentation must be by spaces (no tabs).
 
 The depth of indentation is not fixed. It is typically 2-4 spaces.
-It does not have to be consistent throughtout a file.
+It does not have to be consistent throughout a file.
 
 #### Imports
 
