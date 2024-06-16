@@ -73,7 +73,7 @@ There are two essential workflows:
 
 #### Updating the release branch
 
-Before a release is made the version string stored in [src/mmt-api/resources/versioning/system.txt](https://github.com/UniFormal/MMT/blob/master/src/mmt-api/resources/versioning/system.txt) should be increased appropriatly. 
+Before a release is made the version string stored in [src/mmt-api/resources/versioning/system.txt](https://github.com/UniFormal/MMT/blob/master/src/mmt-api/resources/versioning/system.txt) should be increased appropriately. 
 
 Once such a change has landed on master, when then again use pull requests to mark a version of MMT as a release. 
 This time we merge from ```master``` onto ```release```. 
