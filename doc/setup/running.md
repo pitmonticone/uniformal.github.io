@@ -62,7 +62,7 @@ The `deploy` folder contains shell scripts that automate running from these smal
 * `mmt` (for Unix) and `mmt.bat` (for Windows): executes MMT commands and/or opens an [MMT shell](../applications/shell), `mmt -help` displays the available options
 * `run-file.bat`: a convenience script for Windows that can be associated with MMT shell scripts.
 
-Users may wish to add the deploy folder to the PATH enviroment variable.
+Users may wish to add the deploy folder to the PATH environment variable.
 
 #### Running from Classes
 
