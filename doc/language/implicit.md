@@ -23,7 +23,7 @@ If there is an implicit morphism m from S to T, all names c of S can be used in 
 Similarly, every morphism out of T can be treated as a morphism out of S by composing with m.
 This happens automatically, i.e., the user does not have to refer to m, hence the name *implicit* morphisms.
 
-Of course, this only works if m is uniuqe, i.e., there may at most 1 implicit morphism between any two theories.
+Of course, this only works if m is unique, i.e., there may at most 1 implicit morphism between any two theories.
 In other words, the subgraph of implicit morphisms must commute.
 
 A number of examples are given in the research paper on implicit morphisms.
@@ -177,7 +177,7 @@ MMT flattens every include i of S in T and by composing it with every include in
 The order is relevant because the declarations included by i can already be used in the declarations between i and a later include with the same domain.
 
 There is one relaxation though.
-If the later include i2 of R is primitve, it can often be dropped even if an earlier include i1 of R has a different kind or a definition.
+If the later include i2 of R is primitive, it can often be dropped even if an earlier include i1 of R has a different kind or a definition.
 This is justified because:
 * If i2 is a realization, the promise of i2 is trivial because it has already been fulfilled by i1.
 * If i2 is a plain include and i1 already provides a definition m, dropping i2 amounts to implicitly instantiating all R-constants in the domain of i2 via m.
