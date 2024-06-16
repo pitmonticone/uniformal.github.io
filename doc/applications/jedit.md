@@ -52,7 +52,7 @@ This turns the system into a (very simple) interactive theorem prover.
 
 The type checker treats any occurrence of _ in MMT terms as a fresh unknown and tries to infer its value.
 This includes calling the (experimental and very weak) automated theorem prover of MMT.
-If successful, the term is inserted into the internal syntax (as shown by Sidekick) but the _ remains in the soruce.
+If successful, the term is inserted into the internal syntax (as shown by Sidekick) but the _ remains in the source.
 If the prove fails but the expected type of the subterm is found, a hole-term is introduced.
 In the latter case, the command introduce-hole can be used to replace _ with the hole-term in the source (e.g., in order to use auto-completion).
 
