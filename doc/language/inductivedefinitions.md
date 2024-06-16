@@ -24,7 +24,7 @@ The types of the internal declarations given here can also be automatically infe
 
 #### Elaboration of inductive definitions
 
-Inductive definitions are elaborated to the following delarations:
+Inductive definitions are elaborated to the following delirations:
 
 * A declaration of the specified inductively-defined function for each type inductively-defined by `<indTp>`
 * A declaration axiomatizing the definition for each constructor case
