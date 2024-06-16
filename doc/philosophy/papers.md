@@ -18,7 +18,7 @@ Most relevant papers can be found in Florian Rabe's [publication list](https://k
 
 There is also an [entry](http://swmath.org/software/7136) for MMT in the swMath catalog of mathematical software.
 
-* M. Kohlhase, F. Mance, F. Rabe, [A Universal Machine for Biform Theory Graphs](http://kwarc.info/frabe/Research/KMR_uom_13.pdf) - biform theories (deduction and computatiton) in MMT with a practical integration of MMT and Scala (published at CICM 2013)
+* M. Kohlhase, F. Mance, F. Rabe, [A Universal Machine for Biform Theory Graphs](http://kwarc.info/frabe/Research/KMR_uom_13.pdf) - biform theories (deduction and computation) in MMT with a practical integration of MMT and Scala (published at CICM 2013)
 * D. Ginev, M. Iancu, F. Rabe, [Integrating Content and Narration-Oriented Document Formats](http://kwarc.info/frabe/Research/GIR_mmtlatex_13.pdf) - an integration between MMT and LaTeX
 * M. Iancu, M. Kohlhase, [Searching the Space of Mathematical Knowledge](http://www.cicm-conference.org/2012/mir/mir2012_submission_5.pdf) - this application uses MMT to generate smart search indices that include inherited and computed knowledge (published at MIR 2012)
 * M. Iancu, F. Rabe, [Work-in-progress: An MMT-Based User-Interface](http://kwarc.info/frabe/Research/IR_ui_12.pdf) - a summary of the state of editing in MMT (published at UITP 2012)
