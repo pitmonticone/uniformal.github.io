@@ -11,7 +11,7 @@ The content of the subdirectories is as follows:
     Their status is somewhat between release and nightly build: I commit new builts frequently, and they are usually stable.
     The subfolders are
   * `main`: all jar files of MMT projects
-  * `lib`: all jar files that MMT depends on, including the Scala library The only extenal dependency is the JVM itself. For most parts, Java 6 is fine; occassionally Java 7 is needed. The run scripts automatically put all necessary jars on the Java classpath.
+  * `lib`: all jar files that MMT depends on, including the Scala library The only extenal dependency is the JVM itself. For most parts, Java 6 is fine; occasionally Java 7 is needed. The run scripts automatically put all necessary jars on the Java classpath.
   * `lfcatalog`: the jar files of the LF catalog, to be used with Twelf
   * `jedit-plugin`: all jar and other files needed for the plugin for jEdit
 * `src/`: All sources.
