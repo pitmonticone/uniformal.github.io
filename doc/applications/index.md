@@ -18,7 +18,7 @@ In particular, these include
 The [MMT API](../api) based on MMT provides a number of knowledge management services including
 
 * notation-based presentation,
-* interactive web-browisng,
+* interactive web-browsing,
 * MMT-aware databases with custom indexing and retrieval,
 * project-based abstraction and work flows for building, distribution, and sharing,
 * management of change,
