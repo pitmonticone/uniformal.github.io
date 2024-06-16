@@ -3,7 +3,7 @@ layout: doc
 title: IntelliJ-MMT Plugin
 ---
 
-[IntelliJ IDEA](https://www.jetbrains.com/idea/) is a multi-purpose Java-based IDE. An **MMT plugin** adds functionality to deal with MMT sourecs. It serves the usual features of "language plugins":
+[IntelliJ IDEA](https://www.jetbrains.com/idea/) is a multi-purpose Java-based IDE. An **MMT plugin** adds functionality to deal with MMT sources. It serves the usual features of "language plugins":
 
 - syntax highlighting
 - type checking
