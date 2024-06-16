@@ -52,7 +52,7 @@ Some features are:
       * a *symbol* shows its full MMT URI as a tooltip.
       * a *variable* selects its declaration.
     * The *right-click menu* permits setting visibility options for the selected subexpression.
-        These show/hide parts of the expression that were infered by the system:
+        These show/hide parts of the expression that were inferred by the system:
       * *reconstructed types*: the omitted types of bound variables
       * *implicit arguments*: the omitted arguments to operator applications
       * *redundant brackets*: brackets that are not needed due to operator precedences
