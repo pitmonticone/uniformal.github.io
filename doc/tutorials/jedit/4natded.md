@@ -29,19 +29,19 @@ Since we use judgments-as-types, these three rules correspond to the following t
 ![`\vdash A \wedge B \to \vdash A`](https://latex.codecogs.com/gif.latex?%5Cinline%20%5Cvdash%20A%5Cwedge%20B%5C%3B%20%5Cto%5C%3B%5Cvdash%20A)  
 ![`\vdash A \wedge B \to \vdash B`](https://latex.codecogs.com/gif.latex?%5Cinline%20%5Cvdash%20A%5Cwedge%20B%5C%3B%20%5Cto%5C%3B%5Cvdash%20B)
 
-Noticably, the function arrows in these types lend themselves to be interpreted just like implications: We can read e.g. the first rule as
+Noticeably, the function arrows in these types lend themselves to be interpreted just like implications: We can read e.g. the first rule as
 
 > If `A` is provable, then (if `B` is provable, then `A∧B` is provable).
 
 This is no coincidence - this correspondence between a logical connective and a type constructor is known as *Curry-Howard-Isomorphism* (or *propositions-as-types*), and we will (rather trivially) prove this isomorphism later in MMT using [views](../../language/modules.html#views).
 
-However, the types above don't quite work in LF, for the simple reason, that `A` and `B` are free variables. The proof rules are valid for *any* propositions `A`, `B`, so to avoid them being free variables, we can instead declare a *function* that takes two proposition `A`,`B` and returns the functions corresponding to the rules. For that, we finally need the dependend function types:
+However, the types above don't quite work in LF, for the simple reason, that `A` and `B` are free variables. The proof rules are valid for *any* propositions `A`, `B`, so to avoid them being free variables, we can instead declare a *function* that takes two proposition `A`,`B` and returns the functions corresponding to the rules. For that, we finally need the dependent function types:
 
 ![`\prod_{A:prop}\prod_{B:prop}\vdash A \to \vdash B \to \vdash A\wedge B`](https://latex.codecogs.com/gif.latex?%5Cinline%20%5Cprod_%7BA%3Aprop%7D%5Cprod_%7BB%3Aprop%7D%5Cvdash%20A%5C%3B%20%5Cto%5C%3B%20%5Cvdash%20B%5C%3B%5Cto%5C%3B%5Cvdash%20A%5Cwedge%20B)  
 ![`\prod_{A:prop}\prod_{B:prop}\vdash A \wedge B \to \vdash A`](https://latex.codecogs.com/gif.latex?%5Cinline%20%5Cprod_%7BA%3Aprop%7D%5Cprod_%7BB%3Aprop%7D%5Cvdash%20A%5Cwedge%20B%5C%3B%20%5Cto%5C%3B%5Cvdash%20A)  
 ![`\prod_{A:prop}\prod_{B:prop}\vdash A \wedge B \to \vdash B`](https://latex.codecogs.com/gif.latex?%5Cinline%20%5Cprod_%7BA%3Aprop%7D%5Cprod_%7BB%3Aprop%7D%5Cvdash%20A%5Cwedge%20B%5C%3B%20%5Cto%5C%3B%5Cvdash%20B)
 
-Again, noticably, the dependent functions here lend themselves to be read like a "for all" - e.g. we can read the first rule as
+Again, noticeably, the dependent functions here lend themselves to be read like a "for all" - e.g. we can read the first rule as
 
 > For all `A:prop`, for all `B:prop`: If `A` is provable, then (if `B` is provable, then `A∧B` is provable).
 
