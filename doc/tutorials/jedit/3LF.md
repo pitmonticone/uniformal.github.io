@@ -64,7 +64,7 @@ The last point is worth looking at more closely: Usually, proof rules are denote
 
 In the case of propositional logic, we have a single judgment for every proposition `φ:prop`, namely the judgment `⊦ φ` that `φ` holds. Correspondingly, we declared the function `proof`, that maps a proposition `φ` to the associated type of proofs `⊦ φ`. The syntax we have already taken care of, by declaring the connectives as functions on the type `prop`. 
 
-In the next section we will use dependend function types to implement the rules of the *natural deduction* calculus as functions, that yield elements of the proof types `⊦ φ`.
+In the next section we will use dependent function types to implement the rules of the *natural deduction* calculus as functions, that yield elements of the proof types `⊦ φ`.
 
 -------------------------------
 
