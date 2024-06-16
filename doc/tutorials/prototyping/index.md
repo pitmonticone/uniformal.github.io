@@ -9,7 +9,7 @@ The complete files built interactively in this tutorial can be found at https://
 It assumes that
 
 * MMT has been [installed](../../setup),
-* archives are placed in some folder, which is refered to as `CONTENT`,<span class="detail">The MMT installer should take care of this </span>
+* archives are placed in some folder, which is referred to as `CONTENT`,<span class="detail">The MMT installer should take care of this </span>
 * [jEdit](../../applications/jedit) is used for editing mmt files.<span class="detail">Other editors will work but might make editing awkward.</span>
 
 ### Define a Meta-Logic
